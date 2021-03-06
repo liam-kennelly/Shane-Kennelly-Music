@@ -1,0 +1,60 @@
+
+
+/*-------- General ------*/
+text-align-right {
+    text-align: right;
+}
+
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/ball_palm.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+
+
+/*-------Footer**************/
+
+#footer-details {
+    text-align: center;
+}
+
+.social-links {
+    
+    font-size: x-large;
+}
+
+.footer-text {
+    color: red;
+}
+
+
+/*----- Media Queries -----*/
+
+@media(min-width: 992px) {
+    .callout-container {
+        background: url('../images/shane-hero-light.JPG') no-repeat top center fixed;
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    }
+}
