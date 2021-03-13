@@ -1,15 +1,12 @@
 
 
 /*-------- General ------*/
-text-align-right {
-    text-align: right;
-}
 
 
 .callout-container {
     height: 100vh;
 
-    background: url('../images/ball_palm.jpg') no-repeat bottom right fixed;
+    background: url('../images/shane-hero-light.JPG') no-repeat top right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,30 +19,47 @@ text-align-right {
     position: relative;
 }
 
+/*------Connect**************/
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
 
 
 
 /*-------Footer**************/
 
-#footer-details {
+footer {
+    background-color: black;
+    color: grey;
+    padding-top: 2rem;
     text-align: center;
 }
 
-.social-links {
-    
-    font-size: x-large;
-}
-
-.footer-text {
-    color: red;
+footer a {
+    color: grey;
 }
 
 
 /*----- Media Queries -----*/
 
-@media(min-width: 992px) {
-    .callout-container {
-        background: url('../images/shane-hero-light.JPG') no-repeat top center fixed;
+@media(max-width: 992px) {
+    .social a {
+    font-size: 4em;
+    padding: 2rem;
+}
+
+    
+    
+}
+
+@media(max-width: 768px) {
+
+}
+
+@media(max-width: 576px) {
+.callout-container {
+        background: url('../images/ball_palm.jpg') no-repeat bottom right fixed;
         -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -57,4 +71,9 @@ text-align-right {
 
     position: relative;
     }
+
+    .social a {
+    font-size: 2.5em;
+    padding: 1rem;
+}
 }
