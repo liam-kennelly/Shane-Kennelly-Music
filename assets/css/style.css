@@ -1,12 +1,14 @@
 
 
 /*-------- General ------*/
-
+body {
+    background-color: grey;
+}
 
 .callout-container {
     height: 100vh;
 
-    background: url('../images/shane-hero-light.JPG') no-repeat top right fixed;
+    background: url('../images/shane-hero-light.JPG') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,9 +19,60 @@
     justify-content: center;
 
     position: relative;
+
+    padding-bottom: 200px;
 }
 
+/*---------BODY------------*/
+.main-page {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    
+    
+}
+
+
+
+}
+
+.artist {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #bdc9c9;
+    display: inline-block;
+}
+
+.sound-engineer {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #bdc9c9;
+    display: inline-block;
+}
+
+
+.main-socials {
+    font-size: x-large;
+}
+
+.color-spotify {
+    color: lime;
+}
+
+.color-apple {
+    color: white;
+}
+
+.color-soundcloud {
+    color: orange;
+}
+
+.about {}
+
+
 /*------Connect**************/
+.connect {
+    
+}
+
 .social a {
     font-size: 4.5em;
     padding: 3rem;
@@ -75,5 +128,7 @@ footer a {
     .social a {
     font-size: 2.5em;
     padding: 1rem;
+
+    padding-bottom: 200px;
 }
 }
