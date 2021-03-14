@@ -9,8 +9,7 @@ body {
 
 .callout-container {
     height: 100vh;
-
-    background: url('../images/shane-hero-light.JPG') no-repeat top left fixed;
+    background: url('../images/shane-desktop-mirror-duplicate-2.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,9 +29,19 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     color: #bdc9c9;
     border: 3px solid #dc2140;
+    margin-bottom: 3rem;
     
 }
 
+.btn-stk-red {
+    background-color: #dc2140;
+    font-weight: bold;
+    color: #bdc9c9;
+}
+
+.container-fluid {
+    padding: 1rem;
+}
 
 
 }
@@ -49,13 +58,20 @@ body {
     display: inline-block;
 }
 
-
 .main-socials {
-    font-size: x-large;
+    font-size: 3.5em;
 }
 
+.main-socials h4 {
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+
+
 .color-spotify {
-    color: lime;
+    color: #1DB954;
+    
 }
 
 .color-apple {
@@ -63,22 +79,45 @@ body {
 }
 
 .color-soundcloud {
-    color: orange;
+    color: #ff7700;
 }
 
-.about {
+.about h4 {
+    padding: 2rem;
+}
 
+.about p {
+    padding-top: 2rem;
 }
 
 
 /*------Connect**************/
-.connect {
+.footer-wrap {
+    background-color: rgba(0, 0, 0, 0.3);
+    background: url(../images/Problems_artwork.jpg) no-repeat top center;
     
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+}
+
+.connect {
+    padding-top: 1rem;
+    color: #dc2140;
 }
 
 .social a {
     font-size: 4.5em;
     padding: 3rem;
+    color: #dc2140;
 }
 
 
@@ -94,6 +133,11 @@ footer {
 
 footer a {
     color: grey;
+    
+}
+
+.bg-transparent {
+    background-color: rgba(0, 0, 0, 0.774);
 }
 
 
@@ -116,24 +160,37 @@ footer a {
 @media(max-width: 576px) {
 .callout-container {
 
-        height: 170vh;
-        background: url('../images/ball_palm.jpg') no-repeat bottom right fixed;
-        -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        height: 140%;
+        background-image: url('../images/mic.jpg');
+        
+        background-position: center;
+        background-color: no-repeat;
 
     position: relative;
     
     }
 
-    .social a {
-    font-size: 2.5em;
-    padding: 1rem;
-
+    .main-socials h4 {
+    font-size: 1.1rem;
+    padding-top: 2.9rem;
 }
+
+    .social a {
+    font-size: 2.3em;
+    padding: 0.8rem;
+}
+
+.container-fluid {
+    padding: 0.5rem;
+}
+
+.about h4 {
+    padding: 0.5rem;
+}
+
+.about p {
+    padding-top: 1rem;
+}
+
+
 }
