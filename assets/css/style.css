@@ -2,14 +2,14 @@
 
 /*-------- General ------*/
 body {
-    background-color: grey;
+    background-color: black;
     
 }
 
 
 .callout-container {
-    height: 100vh;
-    background: url('../images/shane-desktop-mirror-duplicate-2.jpg') no-repeat top left fixed;
+    height: 130vh;
+    background: url('../images/shane-desktop-mirror-duplicate.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -26,7 +26,7 @@ body {
 
 /*---------BODY------------*/
 .main-page {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #bdc9c9;
     border: 3px solid #dc2140;
     margin-bottom: 3rem;
@@ -67,6 +67,11 @@ body {
     padding-top: 2rem;
 }
 
+.main-socials a {
+    color: #bdc9c9;
+    text-decoration: none;
+}
+
 
 
 .color-spotify {
@@ -81,6 +86,9 @@ body {
 .color-soundcloud {
     color: #ff7700;
 }
+.about {
+    background-color: rgba(0, 0, 0, 0.);
+}
 
 .about h4 {
     padding: 2rem;
@@ -88,6 +96,28 @@ body {
 
 .about p {
     padding-top: 2rem;
+}
+
+.mix-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/onlinepng-mix.png) no-repeat top center;
+    height: 10rem;
+    padding-bottom: 1rem;
+}
+
+.master-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/onlinepng-master.png) no-repeat top center;
+    height: 10rem;
+    padding-bottom: 1rem;
+}
+
+.record-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url(../images/onlinepng-mix.png) no-repeat top center;
+    height: 10rem;
+    padding-bottom: 1rem;
+    
 }
 
 
@@ -174,6 +204,8 @@ footer a {
     font-size: 1.1rem;
     padding-top: 2.9rem;
 }
+
+
 
     .social a {
     font-size: 2.3em;
