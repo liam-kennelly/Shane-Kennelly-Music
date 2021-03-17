@@ -23,7 +23,8 @@
     <!------NAVIGATION----->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><i class="fa fa-headphones" aria-hidden="true"></i>&nbsp;&nbsp;Shane Kennelly
+            <a class="navbar-brand" href="index.html"><i class="fa fa-headphones"
+                    aria-hidden="true"></i>&nbsp;&nbsp;Shane Kennelly
                 Music</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -33,7 +34,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -62,9 +63,9 @@
                             <li>
                                 <a class="dropdown-item" href="https://soundcloud.com/shane-kennelly" target="_blank">
                                     <i class="fa fa-soundcloud color-soundcloud" aria-hidden="true"></i>
-                                &nbsp;
-                                
-                                Soundcloud
+                                    &nbsp;
+
+                                    Soundcloud
                                 </a>
                             </li>
 
@@ -87,7 +88,7 @@
                         <a class="nav-link" href="faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
@@ -97,73 +98,59 @@
         </div>
     </nav>
 
+    
+                
+
+
     <div class="container-fluid callout-container">
-        <!------ITZ SHANE ARTIST PAGE------>
-        <div class="row container-fluid">
-            <div class="col-md-12 col-lg-6 jumbotron text-center main-page">
-                <h1 class="display-4">Itz Shane</h1>
-                <p class="lead"></p>
+        <div class="row container-fluid contact">
+            <div class="col-12 jumbotron">
+                <h1 class="display-4 text-center">CONTACT</h1>
                 <hr class="my-4">
-                <div class="row">
-                    <div class="col-6 main-socials">
-                        <a href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
-                            target="_blank"><i class="fa fa-spotify color-spotify" aria-hidden="true"></i></a>
-                        <br>
-                        <a href="https://music.apple.com/ca/artist/itz-shane/1495681882" target="_blank"><i
-                                class="fa fa-apple color-apple" aria-hidden="true"></i></a>
-                        <br>
-                        <a href="https://soundcloud.com/shane-kennelly" target="_blank"><i
-                                class="fa fa-soundcloud color-soundcloud" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="col-6 main-socials">
-                        <a href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
-                            target="_blank">
-                            <h4>SPOTIFY</h4>
-                        </a>
-                        <a href="https://music.apple.com/ca/artist/itz-shane/1495681882" target="_blank">
-                            <h4>APPLE MUSIC</h4>
-                        </a>
-                        <a href="https://soundcloud.com/shane-kennelly" target="_blank">
-                            <h4>SOUNDCLOUD</h4>
-                        </a>
-                    </div>
+            <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                <div class="col-md-6">
+                    <label for="firstName" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="firstName" value="" placeholder="First Name" required>
                 </div>
-                <hr class="my-4">
-                <p>
-                    Rapper and song writer Itz Shane (Shane Kennelly) is a young artist who discovered his
-                    love of music at a young age. It has kept him going through life at its hardest times.
-                    Itz Shane grew up in a small town but won't let that limit his success. His modern flow and deep
-                    lyrics
-                    make him one of the most versatile rappers in the game!
-                </p>
-                <p class="lead">
-                    <a class="btn btn-stk-red btn-lg" href="#" role="button">Artist Page</a>
-                </p>
-            </div>
-            
-            <div class="col-md-12 col-lg-6 jumbotron text-center main-page about">
-                <h1 class="display-4">About Me</h1>
-                <hr class="my-4">
-                <h4>Hi, I'm Shane Kennelly, an up and coming artist and sound engineer based in the Greater
-                    Toronto Area (GTA).
-                    I am always open to collaborating and working with others who share my passion for music.
-                    <br>
-                    <br>
-                    I offer Mixing, Mastering and vocal coaching services. Additionally, I am open to featuring in other
-                    artists music.
-                </h4>
-                <hr class="my-4">
-                <p>Want to learn more? Additional info can be found on my services page.
-                </p>
-                <p class="lead">
-                    <a class="btn btn-stk-red btn-lg" href="services.html" role="button">SERVICES</a>
-                </p>
-            </div>
+                <div class="col-md-6">
+                    <label for="lastName" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="lastName" value="" placeholder="Last Name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="option" class="form-label">What Service are you looking for?</label>
+                    <select class="form-select" aria-label="option" required>
+                        <option selected>Select a service</option>
+                        <option value="1">Mixing</option>
+                        <option value="2">Mastering</option>
+                        <option value="3">Mix and Master</option>
+                        <option value="3">Recording Time</option>
+                        <option value="4">Feature Itz Shane in your Music</option>
+                    </select>
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="description" class="form-label">Tell me a bit more about your project</label>
+                    <textarea class="form-control" id="description" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3 text-center">
+                    <button type="submit" class="btn btn-stk-red">Submit</button>
+                </div>
+
+            </form>
+        </div>
         </div>
     </div>
 
 
-    <!------ABOUT SHANE ITZ SHANE------->
+
 
 
 

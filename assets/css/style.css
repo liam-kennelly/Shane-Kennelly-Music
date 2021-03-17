@@ -33,6 +33,15 @@ body {
     
 }
 
+.services-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    padding: 0;
+    margin: 0;
+}
+
+
 .btn-stk-red {
     background-color: #dc2140;
     font-weight: bold;
@@ -151,6 +160,16 @@ body {
 }
 
 
+/* -------------Contact------------- */
+.contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 /*-------Footer**************/
 
@@ -222,6 +241,15 @@ footer a {
 
 .about p {
     padding-top: 1rem;
+}
+
+.contact {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 
