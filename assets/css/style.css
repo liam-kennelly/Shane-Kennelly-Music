@@ -1,3 +1,8 @@
+nav {
+    font-size: large;
+    font-weight: 700;
+}
+
 
 
 /*-------- General ------*/
@@ -8,7 +13,7 @@ body {
 
 
 .callout-container {
-    height: 130vh;
+    height: 120vh;
     background: url('../images/shane-desktop-mirror-duplicate.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,6 +35,17 @@ body {
     color: #bdc9c9;
     border: 3px solid #dc2140;
     margin-bottom: 3rem;
+    backdrop-filter: blur(1px);
+    
+}
+
+.faq-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(1px);
     
 }
 
@@ -38,7 +54,8 @@ body {
     color: #bdc9c9;
     border: 3px solid #dc2140;
     padding: 0;
-    margin: 0;
+    margin-bottom: 0;
+    backdrop-filter: blur(1px);
 }
 
 
@@ -145,7 +162,7 @@ body {
     justify-content: center;
 
     position: relative;
-    
+    border-top: 3px solid #bdc9c9;
 }
 
 .connect {
