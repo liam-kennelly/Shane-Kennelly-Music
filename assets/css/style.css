@@ -3,7 +3,10 @@ nav {
     font-weight: 700;
 }
 
-
+.navbar-nav 
+.dropdown-menu {
+    background-color: #bd1c37;
+}
 
 /*-------- General ------*/
 body {
@@ -11,9 +14,13 @@ body {
     
 }
 
+.remove-side-margin {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .callout-container {
-    height: 120vh;
+    height: 130vh;
     background: url('../images/shane-desktop-mirror-duplicate.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -36,7 +43,6 @@ body {
     border: 3px solid #dc2140;
     margin-bottom: 3rem;
     backdrop-filter: blur(1px);
-    
 }
 
 .faq-page {
@@ -46,8 +52,17 @@ body {
     margin-bottom: 3rem;
     margin-top: 3rem;
     backdrop-filter: blur(1px);
-    
 }
+
+.artist-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(2px);
+}
+
 
 .services-header {
     background-color: rgba(0, 0, 0, 0.5);
@@ -144,6 +159,18 @@ body {
     height: 10rem;
     padding-bottom: 1rem;
     
+}
+
+.problems-album img {
+        max-width: 90%;
+}
+
+.problems-album {
+    margin-top: 1rem;
+}
+
+.problems-album a {
+    font-size: xx-large;
 }
 
 
@@ -268,6 +295,23 @@ footer a {
     margin-left: 0;
     margin-right: 0;
 }
+
+.problems-album img {
+        max-width: 95%;
+        max-width: 95%
+        margin-bottom: 2rem;
+}
+
+.main-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    backdrop-filter: blur(1px);
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
 
 
 }
