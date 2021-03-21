@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Monstserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
 nav {
     font-size: large;
     font-weight: 700;
@@ -5,7 +8,7 @@ nav {
 
 .navbar-nav 
 .dropdown-menu {
-    background-color: #bd1c37;
+    background-color: #dc2140;
 }
 
 /*-------- General ------*/
@@ -14,13 +17,13 @@ body {
     
 }
 
-.remove-side-margin {
-    margin-left: 0;
-    margin-right: 0;
-}
+
+
+
 
 .callout-container {
-    height: 130vh;
+    min-height: 100%;
+    max-height: fit-content;
     background: url('../images/shane-desktop-mirror-duplicate.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -38,12 +41,38 @@ body {
 
 /*---------BODY------------*/
 .main-page {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.55);
     color: #bdc9c9;
     border: 3px solid #dc2140;
     margin-bottom: 3rem;
     backdrop-filter: blur(1px);
 }
+
+h1, 
+h2,
+h4 {
+    font-family: "Permanent Marker", cursive;
+}
+
+.navbar-brand {
+    font-family: "Permanent Marker", cursive;
+}
+
+
+h3,
+h5,
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.connect {
+    font-family: "Permanent Marker", cursive;
+}
+
+.active {
+    font-weight: bold;
+}
+
 
 .faq-page {
     background-color: rgba(0, 0, 0, 0.5);
@@ -113,6 +142,18 @@ body {
     text-decoration: none;
 }
 
+.main-socials a:hover {
+    color: #dc2140;
+}
+
+.main-socials a i:hover {
+    color: #dc2140;
+}
+
+.problems-album a i:hover {
+    color: #dc2140;
+}
+
 
 
 .color-spotify {
@@ -139,31 +180,13 @@ body {
     padding-top: 2rem;
 }
 
-.mix-img {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: url(../images/onlinepng-mix.png) no-repeat top center;
-    height: 10rem;
-    padding-bottom: 1rem;
-}
 
-.master-img {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: url(../images/onlinepng-master.png) no-repeat top center;
-    height: 10rem;
-    padding-bottom: 1rem;
-}
-
-.record-img {
-    background-color: rgba(0, 0, 0, 0.5);
-    background: url(../images/onlinepng-mix.png) no-repeat top center;
-    height: 10rem;
-    padding-bottom: 1rem;
-    
-}
 
 .problems-album img {
         max-width: 90%;
 }
+
+
 
 .problems-album {
     margin-top: 1rem;
@@ -201,6 +224,10 @@ body {
     font-size: 4.5em;
     padding: 3rem;
     color: #dc2140;
+}
+
+.social a i:hover {
+    color: #bdc9c9;
 }
 
 
@@ -247,13 +274,21 @@ footer a {
 }
 
 @media(max-width: 768px) {
+    .problems-album img {
+        min-width: 60%;
+        max-width: 90%;
+}
+    .problems-album iframe {
+        max-width: 90%;
+    }
 
 }
 
 @media(max-width: 576px) {
 .callout-container {
 
-        height: 140%;
+        min-height: 100%;
+        max-height: fit-content;
         background-image: url('../images/mic.jpg');
         
         background-position: center;
@@ -297,7 +332,7 @@ footer a {
 }
 
 .problems-album img {
-        max-width: 95%;
+        min-width: 75%;
         max-width: 95%
         margin-bottom: 2rem;
 }
@@ -312,6 +347,9 @@ footer a {
     margin-right: -1rem;
 }
 
+.problems-album iframe {
+    max-width: 70%;
+}
 
 
 }
