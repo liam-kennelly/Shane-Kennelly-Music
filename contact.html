@@ -4,27 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font Awesome Style Sheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Shane Kennelly Music</title>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-
-
-
+    <!-- Personal Style Sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-
-    <!------NAVIGATION----->
+    <!-- Start of Navigation -->
     <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #bd1c37;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><i class="fa fa-headphones" aria-hidden="true"></i>&nbsp;&nbsp;Shane Kennelly
-                Music</a>
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+                &nbsp;&nbsp;Shane Kennelly Music
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -36,15 +37,16 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="itzShane.html" id="artistNavbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Itz Shane
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="artistNavbarDropdown">
                             <li>
                                 <a class="dropdown-item"
                                     href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
-                                    target="_blank">&nbsp;<i class="fa fa-spotify color-spotify" aria-hidden="true"></i>
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-spotify color-spotify" aria-hidden="true"></i>
                                     &nbsp;
                                     &nbsp;
                                     Spotify
@@ -52,8 +54,8 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="https://music.apple.com/ca/artist/itz-shane/1495681882"
-                                    target="_blank">&nbsp;<i class="fa fa-apple color-apple-dark"
-                                        aria-hidden="true"></i>
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-apple color-apple-dark" aria-hidden="true"></i>
                                     &nbsp;
                                     &nbsp;
                                     Apple Music
@@ -62,9 +64,8 @@
                             <li>
                                 <a class="dropdown-item" href="https://soundcloud.com/shane-kennelly" target="_blank">
                                     <i class="fa fa-soundcloud color-soundcloud" aria-hidden="true"></i>
-                                &nbsp;
-                                
-                                Soundcloud
+                                    &nbsp;
+                                    Soundcloud
                                 </a>
                             </li>
                             <div class="dropdown-divider"></div>
@@ -77,75 +78,105 @@
                             Music Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="services.html">Mixing</a></li>
-                            <li><a class="dropdown-item" href="services.html">Mastering</a></li>
-                            <li><a class="dropdown-item" href="services.html">Recording</a></li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mixing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mastering
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Recording
+                                </a>
+                            </li>
                             <div class="dropdown-divider"></div>
-                            <li><a class="dropdown-item" href="contact.html">Request a Feature</a></li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html">
+                                    Request a Feature
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
+                        <a class="nav-link active" href="contact.html">
+                            Contact
+                        </a>
                     </li>
-                    
                 </ul>
             </div>
         </div>
     </nav>
-
-    
-                
+    <!-- End of Navigation -->
 
 
+
+
+    <!-- Start of callout container -->
     <div class="container-fluid callout-container">
-        <div class="row container-fluid contact">
+        <!-- start of contact section -->
+        <section class="row container-fluid contact">
             <div class="col-12 jumbotron">
                 <h1 class="display-4 text-center">Contact</h1>
                 <hr class="my-4">
-            <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
-                <div class="col-md-6">
-                    <label for="firstName" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="firstName" value="" placeholder="First Name" required>
-                </div>
-                <div class="col-md-6">
-                    <label for="lastName" class="form-label">Last name</label>
-                    <input type="text" class="form-control" id="lastName" value="" placeholder="Last Name" required>
-                </div>
-
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-                </div>
-
-                <div class="mb-3">
-                    <label for="option" class="form-label">What Service are you looking for?</label>
-                    <select class="form-select" aria-label="option" required>
-                        <option selected>Select a service</option>
-                        <option value="1">Mixing</option>
-                        <option value="2">Mastering</option>
-                        <option value="3">Mix and Master</option>
-                        <option value="3">Recording Time</option>
-                        <option value="4">Feature Itz Shane in your Music</option>
-                    </select>
-                </div>
-
-
-                <div class="mb-3">
-                    <label for="description" class="form-label">Tell me a bit more about your project</label>
-                    <textarea class="form-control" id="description" rows="3"></textarea>
-                </div>
-
-                <div class="mb-3 text-center">
-                    <button type="submit" class="btn btn-stk-red">Submit</button>
-                </div>
-
-            </form>
-        </div>
-        </div>
+                <!-- Start of form -->
+                <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                    <!-- Start of first name -->
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" value="" placeholder="First Name"
+                            required>
+                    </div>
+                    <!-- End of first name -->
+                    <!-- Start of Last name -->
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" value="" placeholder="Last Name" required>
+                    </div>
+                    <!-- End of Last Name -->
+                    <!-- Start of Email -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                    </div>
+                    <!-- End of Email -->
+                    <!-- Start of service option box -->
+                    <div class="mb-3">
+                        <label for="option" class="form-label">What Service are you looking for?</label>
+                        <select class="form-select" aria-label="option" required>
+                            <option selected>Select a service</option>
+                            <option value="1">Mixing</option>
+                            <option value="2">Mastering</option>
+                            <option value="3">Mix and Master</option>
+                            <option value="3">Recording Time</option>
+                            <option value="4">Feature Itz Shane in your Music</option>
+                        </select>
+                    </div>
+                    <!-- End of service option box -->
+                    <!-- Start of project description -->
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Tell me a bit more about your project</label>
+                        <textarea class="form-control" id="description" rows="3"></textarea>
+                    </div>
+                    <!-- End of Project description -->
+                    <div class="mb-3 text-center">
+                        <button type="submit" class="btn btn-stk-red">Submit</button>
+                    </div>
+                </form>
+                <!-- End of Form -->
+            </div>
+        </section>
+        <!-- End of contact section -->
     </div>
+    <!-- End of callout contianer -->
 
 
 
@@ -154,8 +185,9 @@
 
 
 
-    <div class="footer-wrap row">
-        <!-----Connect----->
+    <!-- Start of Overall Footer section with bg image -->
+    <section class="footer-wrap row">
+        <!-- Start of Connect Div -->
         <div class="col-12 container-fluid padding connect">
             <div class="row text-center padding">
                 <div class="col-12">
@@ -175,8 +207,9 @@
                 </div>
             </div>
         </div>
+        <!-- End of Connect Div -->
 
-        <!------FOOTER------>
+        <!-- Start of Footer -->
         <footer class="container-fluid bg-transparent footer-text col-12">
             <div id="footer-details" class="row">
                 <div class="col-md-6">
@@ -194,11 +227,11 @@
                         </a>
                     </p>
                 </div>
-
             </div>
-
         </footer>
-    </div>
+        <!-- End of Footer -->
+    </section>
+    <!-- End of Overall Footer section with bg image -->
 </body>
 
 </html>

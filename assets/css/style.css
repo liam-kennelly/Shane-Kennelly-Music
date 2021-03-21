@@ -1,5 +1,10 @@
+/* Monstserrat Font Import */
 @import url('https://fonts.googleapis.com/css?family=Monstserrat:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/* Permanent Marker Font Import */
 @import url('https://fonts.googleapis.com/css?family=Permanent Marker:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/* NAVIGATION */
 
 nav {
     font-size: large;
@@ -11,35 +16,49 @@ nav {
     background-color: #dc2140;
 }
 
-/*-------- General ------*/
-body {
-    background-color: black;
-    
+.navbar-brand {
+    font-family: "Permanent Marker", cursive;
 }
 
+.active {
+    font-weight: bold;
+}
 
+/* Main Heading */
+.services-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    padding: 0;
+    margin-bottom: 0;
+    backdrop-filter: blur(1px);
+}
 
-
+/* --- Body ----- */
+body {
+    background-color: black;
+}
 
 .callout-container {
     min-height: 100%;
     max-height: fit-content;
-    background: url('../images/shane-desktop-mirror-duplicate.jpg') no-repeat top left fixed;
+    background: url('../images/mainBackground.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     padding-top: 10rem;
-
 }
 
-/*---------BODY------------*/
+.container-fluid {
+    padding: 1rem;
+}
+
+/*---------- Common Classes ---------*/
 .main-page {
     background-color: rgba(0, 0, 0, 0.55);
     color: #bdc9c9;
@@ -54,78 +73,16 @@ h4 {
     font-family: "Permanent Marker", cursive;
 }
 
-.navbar-brand {
-    font-family: "Permanent Marker", cursive;
-}
-
-
 h3,
 h5,
 p {
     font-family: "Montserrat", sans-serif;
 }
 
-.connect {
-    font-family: "Permanent Marker", cursive;
-}
-
-.active {
-    font-weight: bold;
-}
-
-
-.faq-page {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #bdc9c9;
-    border: 3px solid #dc2140;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    backdrop-filter: blur(1px);
-}
-
-.artist-page {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #bdc9c9;
-    border: 3px solid #dc2140;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    backdrop-filter: blur(2px);
-}
-
-
-.services-header {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #bdc9c9;
-    border: 3px solid #dc2140;
-    padding: 0;
-    margin-bottom: 0;
-    backdrop-filter: blur(1px);
-}
-
-
 .btn-stk-red {
     background-color: #dc2140;
     font-weight: bold;
     color: #bdc9c9;
-}
-
-.container-fluid {
-    padding: 1rem;
-}
-
-
-}
-
-.artist {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #bdc9c9;
-    display: inline-block;
-}
-
-.sound-engineer {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #bdc9c9;
-    display: inline-block;
 }
 
 .main-socials {
@@ -150,15 +107,8 @@ p {
     color: #dc2140;
 }
 
-.problems-album a i:hover {
-    color: #dc2140;
-}
-
-
-
 .color-spotify {
     color: #1DB954;
-    
 }
 
 .color-apple {
@@ -168,6 +118,46 @@ p {
 .color-soundcloud {
     color: #ff7700;
 }
+
+
+/* ------ FAQ --------- */
+.faq-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(1px);
+}
+
+
+/* Artist Page */
+
+.artist-page {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #bdc9c9;
+    border: 3px solid #dc2140;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    backdrop-filter: blur(2px);
+}
+
+.problems-album a i:hover {
+    color: #dc2140;
+}
+
+.problems-album img {
+        max-width: 90%;
+}
+
+.problems-album {
+    margin-top: 1rem;
+}
+
+.problems-album a {
+    font-size: xx-large;
+}
+
 .about {
     background-color: rgba(0, 0, 0, 0.);
 }
@@ -180,37 +170,17 @@ p {
     padding-top: 2rem;
 }
 
-
-
-.problems-album img {
-        max-width: 90%;
-}
-
-
-
-.problems-album {
-    margin-top: 1rem;
-}
-
-.problems-album a {
-    font-size: xx-large;
-}
-
-
-/*------Connect**************/
+/*------Footer --------*/
 .footer-wrap {
     background-color: rgba(0, 0, 0, 0.3);
-    background: url(../images/Problems_artwork.jpg) no-repeat top center;
-    
-     -webkit-background-size: cover;
+    background: url(../images/footerBackground.jpg) no-repeat top center;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
     border-top: 3px solid #bdc9c9;
 }
@@ -218,6 +188,7 @@ p {
 .connect {
     padding-top: 1rem;
     color: #dc2140;
+    font-family: "Permanent Marker", cursive;
 }
 
 .social a {
@@ -231,7 +202,6 @@ p {
 }
 
 
-/* -------------Contact------------- */
 .contact {
     background-color: rgba(0, 0, 0, 0.5);
     color: #bdc9c9;
@@ -239,10 +209,8 @@ p {
     margin-bottom: 3rem;
     margin-left: 20%;
     margin-right: 20%;
+    backdrop-filter: blur(2px);
 }
-
-
-/*-------Footer**************/
 
 footer {
     background-color: black;
@@ -268,9 +236,6 @@ footer a {
     font-size: 4em;
     padding: 2rem;
 }
-
-    
-    
 }
 
 @media(max-width: 768px) {
@@ -281,30 +246,22 @@ footer a {
     .problems-album iframe {
         max-width: 90%;
     }
-
 }
 
 @media(max-width: 576px) {
 .callout-container {
-
         min-height: 100%;
         max-height: fit-content;
         background-image: url('../images/mic.jpg');
-        
         background-position: center;
         background-color: no-repeat;
-
-    position: relative;
-    
+        position: relative;
     }
 
     .main-socials h4 {
     font-size: 1.1rem;
     padding-top: 2.9rem;
 }
-
-
-
     .social a {
     font-size: 2.3em;
     padding: 0.8rem;
@@ -333,7 +290,7 @@ footer a {
 
 .problems-album img {
         min-width: 75%;
-        max-width: 95%
+        max-width: 95%;
         margin-bottom: 2rem;
 }
 
@@ -343,13 +300,12 @@ footer a {
     border: 3px solid #dc2140;
     margin-bottom: 3rem;
     backdrop-filter: blur(1px);
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .problems-album iframe {
     max-width: 70%;
 }
-
 
 }

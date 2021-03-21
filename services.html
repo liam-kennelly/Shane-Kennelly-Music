@@ -4,28 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Font Awesome Style Sheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Shane Kennelly Music</title>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-
-
-
+    <!-- Personal Style Sheet -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 </head>
 
 <body>
-
-    <!------NAVIGATION----->
+    <!-- Start of Navigation -->
     <nav class="navbar navbar-expand-md navbar-light sticky-top" style="background-color: #bd1c37;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><i class="fa fa-headphones"
-                    aria-hidden="true"></i>&nbsp;&nbsp;Shane Kennelly
-                Music</a>
+            <a class="navbar-brand" href="index.html">
+                <i class="fa fa-headphones" aria-hidden="true"></i>
+                &nbsp;&nbsp;Shane Kennelly Music
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -37,15 +37,16 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="itzShane.html" id="artistNavbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Itz Shane
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="artistNavbarDropdown">
                             <li>
                                 <a class="dropdown-item"
                                     href="https://open.spotify.com/artist/1rflhERDZf5JglaD3nWtSd?si=u-EJMC1MQCCkKSjwG8FJaw"
-                                    target="_blank">&nbsp;<i class="fa fa-spotify color-spotify" aria-hidden="true"></i>
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-spotify color-spotify" aria-hidden="true"></i>
                                     &nbsp;
                                     &nbsp;
                                     Spotify
@@ -53,8 +54,8 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="https://music.apple.com/ca/artist/itz-shane/1495681882"
-                                    target="_blank">&nbsp;<i class="fa fa-apple color-apple-dark"
-                                        aria-hidden="true"></i>
+                                    target="_blank">
+                                    &nbsp;<i class="fa fa-apple color-apple-dark" aria-hidden="true"></i>
                                     &nbsp;
                                     &nbsp;
                                     Apple Music
@@ -64,7 +65,6 @@
                                 <a class="dropdown-item" href="https://soundcloud.com/shane-kennelly" target="_blank">
                                     <i class="fa fa-soundcloud color-soundcloud" aria-hidden="true"></i>
                                     &nbsp;
-
                                     Soundcloud
                                 </a>
                             </li>
@@ -78,37 +78,59 @@
                             Music Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="services.html">Mixing</a></li>
-                            <li><a class="dropdown-item" href="services.html">Mastering</a></li>
-                            <li><a class="dropdown-item" href="services.html">Recording</a></li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mixing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Mastering
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Recording
+                                </a>
+                            </li>
                             <div class="dropdown-divider"></div>
-                            <li><a class="dropdown-item" href="contact.html">Request a Feature</a></li>
+                            <li>
+                                <a class="dropdown-item" href="contact.html">
+                                    Request a Feature
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="faq.html">FAQ</a>
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- End of Navigation -->
 
+    <!-- Start of Services Main Heading -->
     <div class="row">
         <div class="col-12 services-header">
             <h1 class="text-center">Services</h1>
         </div>
     </div>
+    <!-- End of Services Main Heading -->
 
+    <!-- Start of callout container -->
     <div class="container-fluid callout-container">
-        <!------ITZ SHANE ARTIST PAGE------>
-
-        <div class="row container-fluid">
-            <div class="col-md-12 col-lg-4 jumbotron text-center main-page">
-
+        <!-- Start of services overall section -->
+        <section class="row container-fluid">
+            <!-- Start of Mixing Sub Section -->
+            <section class="col-md-12 col-lg-4 jumbotron text-center main-page">
                 <h1 class="display-4">Mixing</h1>
                 <hr class="my-4">
                 <h5>
@@ -124,14 +146,13 @@
                     step in making a song.
                 </h5>
                 <hr class="my-4">
-
                 <p class="lead">
                     <a class="btn btn-stk-red btn-lg" href="contact.html" role="button">Contact for Prices</a>
                 </p>
-
-            </div>
-            <div class="col-md-12 col-lg-4 jumbotron text-center main-page">
-
+            </section>
+            <!-- End of Mixing Sub Section -->
+            <!-- Start of Mastering Sub Section -->
+            <section class="col-md-12 col-lg-4 jumbotron text-center main-page">
                 <h1 class="display-4">Mastering</h1>
                 <hr class="my-4">
                 <h5>Mastering refers to the process of taking an audio mix and preparing it for distribution. The
@@ -144,44 +165,41 @@
                     If you think of mixing as building up the layers of a cake, then mastering is the icing on top.
                 </h5>
                 <hr class="my-4">
-
                 <p class="lead">
                     <a class="btn btn-stk-red btn-lg" href="contact.html" role="button">Contact for Prices</a>
                 </p>
-
-            </div>
-            <div class="col-md-12 col-lg-4 jumbotron text-center main-page">
-
+            </section>
+            <!-- End of Mastering Sub Section -->
+            <!-- Start of Recording Sub Seciton -->
+            <section class="col-md-12 col-lg-4 jumbotron text-center main-page">
                 <h1 class="display-4">Recording</h1>
                 <hr class="my-4">
                 <h5>
-                    
                     Experience the full service by doing your recordings in-house on my professional recording
                     equipment before mixing and mastering.
                     <br>
                     <br>
                     I will work with you and provide free vocal coaching to achieve the best sound possible. Clients who
                     record with me will automatically recieve a discount on mixing and mastering services!
-
                 </h5>
                 <hr class="my-4">
-
                 <p class="lead">
                     <a class="btn btn-stk-red btn-lg" href="contact.html" role="button">Contact for Prices</a>
                 </p>
-
-            </div>
-        </div>
-
+            </section>
+            <!-- End of Recording Sub Section -->
+        </section>
+        <!-- End of services overall section -->
     </div>
+    <!-- End of callout container -->
 
 
-    <!------ABOUT SHANE ITZ SHANE------->
 
 
 
-    <div class="footer-wrap row">
-        <!-----Connect----->
+    <!-- Start of Overall Footer section with bg image -->
+    <section class="footer-wrap row">
+        <!-- Start of Connect Div -->
         <div class="col-12 container-fluid padding connect">
             <div class="row text-center padding">
                 <div class="col-12">
@@ -201,8 +219,9 @@
                 </div>
             </div>
         </div>
+        <!-- End of Connect Div -->
 
-        <!------FOOTER------>
+        <!-- Start of Footer -->
         <footer class="container-fluid bg-transparent footer-text col-12">
             <div id="footer-details" class="row">
                 <div class="col-md-6">
@@ -220,11 +239,11 @@
                         </a>
                     </p>
                 </div>
-
             </div>
-
         </footer>
-    </div>
+        <!-- End of Footer -->
+    </section>
+    <!-- End of Overall Footer section with bg image -->
 </body>
 
 </html>
