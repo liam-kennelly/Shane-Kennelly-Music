@@ -159,7 +159,7 @@ p {
 }
 
 .about {
-    background-color: rgba(0, 0, 0, 0.);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .about h4 {
@@ -254,7 +254,6 @@ footer a {
         max-height: fit-content;
         background-image: url('../images/mic.jpg');
         background-position: center;
-        background-color: no-repeat;
         position: relative;
     }
 
