@@ -107,7 +107,6 @@ Finally the submit button will submit the form.
 
 
 ### Features to implement in future
-* Complete the Contact form back end so the form reaches Shanes email inbox. JS funtionality may be required.
 * Add music video to the Home Page (Once Shane Films one).
 * Reviews. Once Shane builds up a significant client list and begins to receive reviews they should be shown on a review page.
 * Merchandise. When / If Shane begins making and selling merchandise.
@@ -124,6 +123,8 @@ Finally the submit button will submit the form.
     - The project uses **Google fonts** to style the website fonts.
 - [Popper.js](https://popper.js.org/)
     - The project uses **Popper,js** needed for the responsive navbar.
+- [MailThis.to](https://mailthis.to/)
+    - The project uses this API to send the data from the form in an email
 - All images are stored in the local media images library and are owney by the artist
 
 

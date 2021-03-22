@@ -128,43 +128,47 @@
                 <h1 class="display-4 text-center">Contact</h1>
                 <hr class="my-4">
                 <!-- Start of form -->
-                <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net/">
+                <form class="row g-3" action="https://mailthis.to/lkennelly" method="POST">
                     <!-- Start of first name -->
                     <div class="col-md-6">
                         <label for="firstName" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="firstName" value="" placeholder="First Name"
+                        <input type="text" name="name" class="form-control" id="firstName" value="" placeholder="First Name"
                             required>
                     </div>
                     <!-- End of first name -->
                     <!-- Start of Last name -->
                     <div class="col-md-6">
                         <label for="lastName" class="form-label">Last name</label>
-                        <input type="text" class="form-control" id="lastName" value="" placeholder="Last Name" required>
+                        <input type="text" name="name" class="form-control" id="lastName" value="" placeholder="Last Name" required>
                     </div>
                     <!-- End of Last Name -->
                     <!-- Start of Email -->
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        <input type="email" name="_replyto" class="form-control" id="email" placeholder="name@example.com" required>
                     </div>
                     <!-- End of Email -->
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Optional">
+                    </div>
                     <!-- Start of service option box -->
                     <div class="mb-3">
                         <label for="option" class="form-label">What Service are you looking for?</label>
-                        <select class="form-select" aria-label="option" id="option" required>
+                        <select class="form-select" name="message" aria-label="option" id="option" required>
                             <option value="">Select a Service</option>
-                            <option value="1">Mixing</option>
-                            <option value="2">Mastering</option>
-                            <option value="3">Mix and Master</option>
-                            <option value="3">Recording Time</option>
-                            <option value="4">Feature Itz Shane in your Music</option>
+                            <option value="mix">Mixing</option>
+                            <option value="master">Mastering</option>
+                            <option value="mix and master">Mix and Master</option>
+                            <option value="recording">Recording Time</option>
+                            <option value="feature">Feature Itz Shane in your Music</option>
                         </select>
                     </div>
                     <!-- End of service option box -->
                     <!-- Start of project description -->
                     <div class="mb-3">
                         <label for="description" class="form-label">Tell me a bit more about your project</label>
-                        <textarea class="form-control" id="description" rows="3"></textarea>
+                        <textarea class="form-control" name="message" id="description" rows="3"></textarea>
                     </div>
                     <!-- End of Project description -->
                     <div class="mb-3 text-center">
