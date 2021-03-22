@@ -150,6 +150,7 @@ p {
         
     min-width: 80%;
     max-width: 18rem;
+    border: 2px solid #bdc9c9;
 }
 
 .problems-album {
@@ -162,6 +163,7 @@ p {
 
 .problems-album iframe {
         max-width: fit-content;
+        border: 2px solid #bdc9c9;
     }
 
 .about h4 {
