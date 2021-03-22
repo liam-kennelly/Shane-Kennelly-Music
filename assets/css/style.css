@@ -147,7 +147,9 @@ p {
 }
 
 .problems-album img {
-        max-width: 90%;
+        
+    min-width: 80%;
+    max-width: 18rem;
 }
 
 .problems-album {
@@ -158,6 +160,9 @@ p {
     font-size: xx-large;
 }
 
+.problems-album iframe {
+        max-width: fit-content;
+    }
 
 .about h4 {
     padding: 2rem;

@@ -2,6 +2,8 @@
 
 ## Rap Artist and Sound Engineer
 
+### Domain: www.shanekennellymusic.com
+
 A website for a Rap Artist and Sound Engineer based in the Greater Toronto Area, Canada.
 
 This website provides information for Shanes clients interested in his two main forms of work.
@@ -104,7 +106,6 @@ Finally the submit button will submit the form.
     * Currently the form is being dumped to a code institute form dump but will eventually submit emails
 
 
-
 ### Features to implement in future
 * Complete the Contact form back end so the form reaches Shanes email inbox. JS funtionality may be required.
 * Add music video to the Home Page (Once Shane Films one).
@@ -136,6 +137,17 @@ The page was deployed using [GitHub](https://github.com/)
 - All the photos used in this site were obtained from the artist - Shane Kennelly
 
 
+
+# Supporting Documentation
+
+## Wireframes
+Link to my Wireframes created with [Balsamic](https://1drv.ms/u/s!AnqWbG5HCE4dtVphHKoTFtwdLlLV?e=fukJOj)
+
+## Desktop Screenshots
+Link to my completed desktop screenshots can be found [here](https://1drv.ms/u/s!AnqWbG5HCE4dtVxsgL2yqAxIH65b?e=F6GeNc)
+
+## Mobile Screenshots
+Link to my completed mobile screenshots can be found [here](https://1drv.ms/u/s!AnqWbG5HCE4dtVttRnUvwvR6-FLd?e=Ff9lqg)
 
 
 
