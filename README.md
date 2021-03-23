@@ -130,13 +130,75 @@ Finally the submit button will submit the form.
 
 ## Deployment 
 This project was developed using the [Gitpod IDE](https://gitpod.io/), commited to git and pushed to Github
-The domain name was purchased from [Go Daddy](https://ca.godaddy.com/)
 The page was deployed using [GitHub](https://github.com/)
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/liam-kennelly/Shane-Kennelly-Music), the following steps were taken: 
+1. Log into GitHub. 
+2. From the list of repositories on the screen, select **Liam-Kennelly/Shane-Kennelly-Music**.
+3. From the menu items near the top of the page, select **Settings**.
+4. Scroll down to the **GitHub Pages** section.
+5. Under **Source** click the drop-down menu labelled **None** and select **Master Branch**
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed. 
+7. I had originally opted to host the website on a custom domain name (www.shanekennellymusic.com) succesfully but after reading over submission policy again
+I removed the custom domain as the submitted project can not be edited after submission.
+This repo will be forked and the custom domain will be applied in the forked repo
+8. Scroll back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
 
 
 ### Media 
 - All the photos used in this site were obtained from the artist - Shane Kennelly
 
+## Testing 
+
+#### All pages
+1. Navigation Bar is responsive and working across different screen sizes
+    - Active page is bolded
+    - Drop down menus working correctly
+        - Dropdown dividers displayed correctly
+    - toggler showing on medium and smaller screen sizes
+    - Links bring you to the correct page
+    - Links to external sites (ie. spotify, instagram etc) open in a new tab
+    - Navbrar brand also brings you to home page
+2. Main Area 
+    - Hero Image background visible across medium and large devices
+    - different hero background image visible across smaller mobile devices
+    - Similar style (ie, coloured border and transparent dark background) visible across all screen sizes and pages
+    - All links working correctly. ALL PAGES
+2. Footer 
+    - has all necessary information and looks good across different screen sizes
+    - background image in footer loads correctly for all devices
+    - Connect Links change colour when hovered over
+
+### Home Page
+1. Common factors above
+2. Laid out correctly
+3. Links to external sites on both text and logos open in a new tab
+    - Links change colour when hovered over
+4. Links to shanes artist page navigate correctly
+
+### Artist Progile Page
+1. Common factors above
+2. Bio easy to read and leads user to Shanes Music Platform PAGES
+3. Album artwork loads correctly and is response across different screen sizes
+4. Embedded spotify iframe player working across different screen sizes and devices
+5. Spotify and Apple Music links change colour when hovered over
+
+### Music Services Page
+1. Common Factors above
+2. 3 main services displayed correctly and respond well to different screen sizes
+3. Links to contact page working correctly
+
+### FAQ Page
+1. Common factors above
+2. Commonly asked questions answered
+3. "Want to get in touch?" button linking to contact page working correctly
+
+### Contact Page
+1. Common factors above
+2. Required fields working correctly
+3. correct input type must be entered in different boxes (ie, text, email etc)
+4. Form succesfully submits to [MailThis.to](https://mailthis.to/) which is set up to forward emails with the information in the form
 
 
 # Supporting Documentation
